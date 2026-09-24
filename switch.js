@@ -94,7 +94,7 @@ function seatSelectionProcess(thisSeat) {
     
         if (index > -1) {
             selectedSeats.splice(index, 1);
-            document.getElementById(thisSeat).className = "a";
+            // document.getElementById(thisSeat).className = "a";
         } else {
             selectedSeats.push(thisSeat);
             document.getElementById(thisSeat).className = "s";
